@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91335D492C2B0619006B91BC /* DungeonDiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335D482C2B0619006B91BC /* DungeonDiceApp.swift */; };
+		91335D4B2C2B0619006B91BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335D4A2C2B0619006B91BC /* ContentView.swift */; };
+		91335D4D2C2B061A006B91BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91335D4C2C2B061A006B91BC /* Assets.xcassets */; };
+		91335D502C2B061A006B91BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91335D4F2C2B061A006B91BC /* Preview Assets.xcassets */; };
+		91335D5A2C2B061A006B91BC /* DungeonDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335D592C2B061A006B91BC /* DungeonDiceTests.swift */; };
+		91335D642C2B061A006B91BC /* DungeonDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335D632C2B061A006B91BC /* DungeonDiceUITests.swift */; };
+		91335D662C2B061A006B91BC /* DungeonDiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335D652C2B061A006B91BC /* DungeonDiceUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91335D562C2B061A006B91BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91335D3D2C2B0619006B91BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91335D442C2B0619006B91BC;
+			remoteInfo = DungeonDice;
+		};
+		91335D602C2B061A006B91BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91335D3D2C2B0619006B91BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91335D442C2B0619006B91BC;
+			remoteInfo = DungeonDice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91335D452C2B0619006B91BC /* DungeonDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungeonDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91335D482C2B0619006B91BC /* DungeonDiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonDiceApp.swift; sourceTree = "<group>"; };
+		91335D4A2C2B0619006B91BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91335D4C2C2B061A006B91BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91335D4F2C2B061A006B91BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91335D552C2B061A006B91BC /* DungeonDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungeonDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91335D592C2B061A006B91BC /* DungeonDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonDiceTests.swift; sourceTree = "<group>"; };
+		91335D5F2C2B061A006B91BC /* DungeonDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungeonDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91335D632C2B061A006B91BC /* DungeonDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonDiceUITests.swift; sourceTree = "<group>"; };
+		91335D652C2B061A006B91BC /* DungeonDiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonDiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91335D422C2B0619006B91BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91335D522C2B061A006B91BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91335D5C2C2B061A006B91BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91335D3C2C2B0619006B91BC = {
+			isa = PBXGroup;
+			children = (
+				91335D472C2B0619006B91BC /* DungeonDice */,
+				91335D582C2B061A006B91BC /* DungeonDiceTests */,
+				91335D622C2B061A006B91BC /* DungeonDiceUITests */,
+				91335D462C2B0619006B91BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91335D462C2B0619006B91BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91335D452C2B0619006B91BC /* DungeonDice.app */,
+				91335D552C2B061A006B91BC /* DungeonDiceTests.xctest */,
+				91335D5F2C2B061A006B91BC /* DungeonDiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91335D472C2B0619006B91BC /* DungeonDice */ = {
+			isa = PBXGroup;
+			children = (
+				91335D482C2B0619006B91BC /* DungeonDiceApp.swift */,
+				91335D4A2C2B0619006B91BC /* ContentView.swift */,
+				91335D4C2C2B061A006B91BC /* Assets.xcassets */,
+				91335D4E2C2B061A006B91BC /* Preview Content */,
+			);
+			path = DungeonDice;
+			sourceTree = "<group>";
+		};
+		91335D4E2C2B061A006B91BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91335D4F2C2B061A006B91BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91335D582C2B061A006B91BC /* DungeonDiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				91335D592C2B061A006B91BC /* DungeonDiceTests.swift */,
+			);
+			path = DungeonDiceTests;
+			sourceTree = "<group>";
+		};
+		91335D622C2B061A006B91BC /* DungeonDiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91335D632C2B061A006B91BC /* DungeonDiceUITests.swift */,
+				91335D652C2B061A006B91BC /* DungeonDiceUITestsLaunchTests.swift */,
+			);
+			path = DungeonDiceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91335D442C2B0619006B91BC /* DungeonDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91335D692C2B061A006B91BC /* Build configuration list for PBXNativeTarget "DungeonDice" */;
+			buildPhases = (
+				91335D412C2B0619006B91BC /* Sources */,
+				91335D422C2B0619006B91BC /* Frameworks */,
+				91335D432C2B0619006B91BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DungeonDice;
+			productName = DungeonDice;
+			productReference = 91335D452C2B0619006B91BC /* DungeonDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91335D542C2B061A006B91BC /* DungeonDiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91335D6C2C2B061A006B91BC /* Build configuration list for PBXNativeTarget "DungeonDiceTests" */;
+			buildPhases = (
+				91335D512C2B061A006B91BC /* Sources */,
+				91335D522C2B061A006B91BC /* Frameworks */,
+				91335D532C2B061A006B91BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91335D572C2B061A006B91BC /* PBXTargetDependency */,
+			);
+			name = DungeonDiceTests;
+			productName = DungeonDiceTests;
+			productReference = 91335D552C2B061A006B91BC /* DungeonDiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91335D5E2C2B061A006B91BC /* DungeonDiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91335D6F2C2B061A006B91BC /* Build configuration list for PBXNativeTarget "DungeonDiceUITests" */;
+			buildPhases = (
+				91335D5B2C2B061A006B91BC /* Sources */,
+				91335D5C2C2B061A006B91BC /* Frameworks */,
+				91335D5D2C2B061A006B91BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91335D612C2B061A006B91BC /* PBXTargetDependency */,
+			);
+			name = DungeonDiceUITests;
+			productName = DungeonDiceUITests;
+			productReference = 91335D5F2C2B061A006B91BC /* DungeonDiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91335D3D2C2B0619006B91BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					91335D442C2B0619006B91BC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					91335D542C2B061A006B91BC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 91335D442C2B0619006B91BC;
+					};
+					91335D5E2C2B061A006B91BC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 91335D442C2B0619006B91BC;
+					};
+				};
+			};
+			buildConfigurationList = 91335D402C2B0619006B91BC /* Build configuration list for PBXProject "DungeonDice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91335D3C2C2B0619006B91BC;
+			productRefGroup = 91335D462C2B0619006B91BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91335D442C2B0619006B91BC /* DungeonDice */,
+				91335D542C2B061A006B91BC /* DungeonDiceTests */,
+				91335D5E2C2B061A006B91BC /* DungeonDiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91335D432C2B0619006B91BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91335D502C2B061A006B91BC /* Preview Assets.xcassets in Resources */,
+				91335D4D2C2B061A006B91BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91335D532C2B061A006B91BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91335D5D2C2B061A006B91BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91335D412C2B0619006B91BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91335D4B2C2B0619006B91BC /* ContentView.swift in Sources */,
+				91335D492C2B0619006B91BC /* DungeonDiceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91335D512C2B061A006B91BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91335D5A2C2B061A006B91BC /* DungeonDiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91335D5B2C2B061A006B91BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91335D662C2B061A006B91BC /* DungeonDiceUITestsLaunchTests.swift in Sources */,
+				91335D642C2B061A006B91BC /* DungeonDiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91335D572C2B061A006B91BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91335D442C2B0619006B91BC /* DungeonDice */;
+			targetProxy = 91335D562C2B061A006B91BC /* PBXContainerItemProxy */;
+		};
+		91335D612C2B061A006B91BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91335D442C2B0619006B91BC /* DungeonDice */;
+			targetProxy = 91335D602C2B061A006B91BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91335D672C2B061A006B91BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91335D682C2B061A006B91BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91335D6A2C2B061A006B91BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DungeonDice/Preview Content\"";
+				DEVELOPMENT_TEAM = H9358XX337;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macmodeler.DungeonDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91335D6B2C2B061A006B91BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DungeonDice/Preview Content\"";
+				DEVELOPMENT_TEAM = H9358XX337;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macmodeler.DungeonDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91335D6D2C2B061A006B91BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9358XX337;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macmodeler.DungeonDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DungeonDice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DungeonDice";
+			};
+			name = Debug;
+		};
+		91335D6E2C2B061A006B91BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9358XX337;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macmodeler.DungeonDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DungeonDice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DungeonDice";
+			};
+			name = Release;
+		};
+		91335D702C2B061A006B91BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9358XX337;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macmodeler.DungeonDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DungeonDice;
+			};
+			name = Debug;
+		};
+		91335D712C2B061A006B91BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9358XX337;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macmodeler.DungeonDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DungeonDice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91335D402C2B0619006B91BC /* Build configuration list for PBXProject "DungeonDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91335D672C2B061A006B91BC /* Debug */,
+				91335D682C2B061A006B91BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91335D692C2B061A006B91BC /* Build configuration list for PBXNativeTarget "DungeonDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91335D6A2C2B061A006B91BC /* Debug */,
+				91335D6B2C2B061A006B91BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91335D6C2C2B061A006B91BC /* Build configuration list for PBXNativeTarget "DungeonDiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91335D6D2C2B061A006B91BC /* Debug */,
+				91335D6E2C2B061A006B91BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91335D6F2C2B061A006B91BC /* Build configuration list for PBXNativeTarget "DungeonDiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91335D702C2B061A006B91BC /* Debug */,
+				91335D712C2B061A006B91BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91335D3D2C2B0619006B91BC /* Project object */;
+}
