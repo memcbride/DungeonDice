@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    enum Dice: Int {
+    enum Dice: Int, CaseIterable {
         case four = 4
         case six = 6
         case eight = 8
@@ -43,38 +43,14 @@ struct ContentView: View {
             Spacer()
             
             Group {
-                HStack {
-                    Button("\(Dice.four)-sided") {
-                        resultMessage = "You rolled a \(Dice.four.roll()) \non a \(Dice.four.rawValue)-sided die"
+                ForEach(Dice.allCases, id: \.self) {die in
+                    Button("\(die.rawValue)-sided") {
+                        resultMessage = "You rolled a \(die.roll()) \non a \(die.rawValue)-sided die"
                     }
-                    Spacer()
-                    Button("\(Dice.six)-sided") {
-                        resultMessage = "You rolled a \(Dice.six.roll()) \non a \(Dice.six.rawValue)-sided die"
-                    }
-                    Spacer()
-                    Button("\(Dice.eight)-sided") {
-                        resultMessage = "You rolled a \(Dice.eight.roll()) \non a \(Dice.eight.rawValue)-sided die"
-                    }
-                }
-                HStack {
-                    Button("\(Dice.ten)-sided") {
-                        resultMessage = "You rolled a \(Dice.ten.roll()) \non a \(Dice.ten.rawValue)-sided die"
-                    }
-                    Button("\(Dice.twelve)-sided") {
-                        resultMessage = "You rolled a \(Dice.twelve.roll()) \non a \(Dice.twelve.rawValue)-sided die"
-                    }
-                    Spacer()
-                    Button("\(Dice.twenty)-sided") {
-                        resultMessage = "You rolled a \(Dice.twenty.roll()) \non a \(Dice.twenty.rawValue)-sided die"
-                    }
-                }
-                Button("\(Dice.hundred)-sided") {
-                    resultMessage = "You rolled a \(Dice.hundred.roll()) \non a \(Dice.hundred.rawValue)-sided die"
                 }
             }
             .buttonStyle(.borderedProminent)
             .tint(.red)
-
         }
         .padding()
     }
