@@ -14,6 +14,7 @@
 		91335D5A2C2B061A006B91BC /* DungeonDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335D592C2B061A006B91BC /* DungeonDiceTests.swift */; };
 		91335D642C2B061A006B91BC /* DungeonDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335D632C2B061A006B91BC /* DungeonDiceUITests.swift */; };
 		91335D662C2B061A006B91BC /* DungeonDiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335D652C2B061A006B91BC /* DungeonDiceUITestsLaunchTests.swift */; };
+		91335DAD2C2CD5A5006B91BC /* ButtonLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335DAC2C2CD5A5006B91BC /* ButtonLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		91335D632C2B061A006B91BC /* DungeonDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonDiceUITests.swift; sourceTree = "<group>"; };
 		91335D652C2B061A006B91BC /* DungeonDiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonDiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		91335D722C2B064C006B91BC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		91335DAC2C2CD5A5006B91BC /* ButtonLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLayoutView.swift; sourceTree = "<group>"; };
+		91335DAE2C2CD9ED006B91BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +99,10 @@
 		91335D472C2B0619006B91BC /* DungeonDice */ = {
 			isa = PBXGroup;
 			children = (
+				91335DAE2C2CD9ED006B91BC /* Info.plist */,
 				91335D482C2B0619006B91BC /* DungeonDiceApp.swift */,
 				91335D4A2C2B0619006B91BC /* ContentView.swift */,
+				91335DAC2C2CD5A5006B91BC /* ButtonLayoutView.swift */,
 				91335D4C2C2B061A006B91BC /* Assets.xcassets */,
 				91335D4E2C2B061A006B91BC /* Preview Content */,
 			);
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91335D4B2C2B0619006B91BC /* ContentView.swift in Sources */,
+				91335DAD2C2CD5A5006B91BC /* ButtonLayoutView.swift in Sources */,
 				91335D492C2B0619006B91BC /* DungeonDiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,10 +433,9 @@
 				DEVELOPMENT_TEAM = H9358XX337;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Dungeon Dice";
+				INFOPLIST_FILE = DungeonDice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,10 +462,9 @@
 				DEVELOPMENT_TEAM = H9358XX337;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Dungeon Dice";
+				INFOPLIST_FILE = DungeonDice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
