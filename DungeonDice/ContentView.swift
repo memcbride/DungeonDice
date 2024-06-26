@@ -24,7 +24,7 @@ struct ContentView: View {
     }
     
     @State private var resultMessage = ""
- 
+    
     var body: some View {
         VStack {
             Text("Dungeon Dice")
@@ -42,15 +42,15 @@ struct ContentView: View {
             
             Spacer()
             
-            Group {
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 102))]) {
                 ForEach(Dice.allCases, id: \.self) {die in
                     Button("\(die.rawValue)-sided") {
                         resultMessage = "You rolled a \(die.roll()) \non a \(die.rawValue)-sided die"
                     }
                 }
+                .buttonStyle(.borderedProminent)
+                .tint(.red)
             }
-            .buttonStyle(.borderedProminent)
-            .tint(.red)
         }
         .padding()
     }
